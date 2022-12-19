@@ -1,5 +1,5 @@
 :root{
-    --blue: #60a5fa;
+    --blue: #559df5;
     --white: #fdf2f8;
     --grey:  #cbd5e1;
 
@@ -133,7 +133,7 @@ svg{
     grid-row:2 ;
     background-color: var(--grey);
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
 }
 
@@ -145,7 +145,7 @@ svg{
 
 .project-name-desc{
     position: relative;
-    height: 140px;
+    height: 150px;
     width: 98%;
     background-color: white;
     border-radius: 5px;
@@ -165,6 +165,26 @@ svg{
     padding-left: 20px;
 }
 
+.column.two{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 20px;
+}
+
+
+
+.main-anouncements,
+.trending-news{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.main-anouncements > div{
+    padding: 10px;
+}
+
 .sidebar{
     background-color: var(--blue);
     grid-column: 1/2;
@@ -179,7 +199,6 @@ svg{
     margin-bottom: -35px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
 }
 
 .sidebar-item h4:hover{
